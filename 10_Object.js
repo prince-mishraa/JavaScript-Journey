@@ -1,6 +1,7 @@
 // const tinderUser = new Object;
 const tinderUser = {};
 tinderUser.id = "123"
+<<<<<<< HEAD
 tinderUser.name = "Panta"
 tinderUser.isLoggedIn = false
 
@@ -63,3 +64,7 @@ console.log(instructor)
     {}
 ]
 
+=======
+
+console.log(tinderUser)
+>>>>>>> 4082996 (Functions)
