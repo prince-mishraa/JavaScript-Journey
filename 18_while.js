@@ -9,7 +9,7 @@ let mmm = ['prince0', 'prince1' , 'prince2']
 
 let arr = 0;
 while(arr < mmm.length){
-    console.log(`value is ${mmm[arr]}`);
+    // console.log(`value is ${mmm[arr]}`);
     arr++
 }
 let score = 11
