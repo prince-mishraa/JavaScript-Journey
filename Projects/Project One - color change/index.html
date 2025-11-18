@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg Color Switcher!</title>
+    <style>
+        .canvas{
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .button{
+            height : 100px;
+            display: inline-block;
+            width: 100px;
+            border-radius: 50%;
+            margin: 10px;
+            cursor: pointer;
+            border: 2px solid black;
+        }
+
+        #blue{background-color: blue;}
+        #green{background-color: green;}
+        #yellow{ background-color: yellow;}
+        #pink{background-color: pink;}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+    </nav>
+    <div class = "canvas">
+        <h1>Color Scheme Switcher</h1>
+        <span class = "button" id = 'blue'></span>
+        <span class = "button" id = 'green'></span>
+        <span class = "button" id = 'yellow'></span>
+        <span class = "button" id = 'pink'></span>
+
+        <h2>
+            Try clicking on one of the colors above <span>to change the Background</span>
+        </h2>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
