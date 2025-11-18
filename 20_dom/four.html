@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 4</title>
+</head>
+<body style="background-color: black; color: aqua;">
+    <ul class = "language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLang(langName){
+        const li = document.createElement("li");
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLang("C++")
+    addLang('python')
+    
+    function addoptilang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li)
+    }
+    addoptilang('React.js')
+
+    // Edit
+    const second_lang = document.querySelector("li:nth-child(2)")
+    // second_lang.innerHTML = "Mojo" -- first approach
+    const newli = document.createElement('li')
+    newli.textContent = "MojoRojo"
+    second_lang.replaceWith(newli)
+
+    // edit
+    const first_lang = document.querySelector("li:first-child");
+    first_lang.outerHTML = '<li>Typescript<li>';
+    
+    // remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+</script>
+</html>
