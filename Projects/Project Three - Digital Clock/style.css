@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+nav{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav .home{
+    text-decoration: none;
+    padding: 12px 30px;
+    background: rgba(255, 255, 255, 0.18);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .home:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.center{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    font-size: 28px;
+    padding: 12px 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+#clock {
+    font-size: 70px;
+    padding: 25px 60px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px);
+    letter-spacing: 3px;
+    font-weight: 700;
+}
