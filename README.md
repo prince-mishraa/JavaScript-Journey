@@ -1,2 +1,2 @@
 # JavaScript-Journey
-JavaScript practices.
+JavaScript practices
